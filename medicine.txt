@@ -1,0 +1,18 @@
+cat_dis_med= {
+"Cryptococcosis":" Amphotericin B, Ketoconazole, Fluconazole and Itraconazole",
+"Cuterebra (Botfly) Infestation":"Thoroughly flushed with Sterile Saline, Debrided (if necessary)",
+"Ringworm":"Itraconazole, Itrafungol, Sporanox, Onmel or Terbinafine",
+"ear mites":"NexGard SPECTRA",
+"felina acne":"Mupirocin (Muricin)",
+"feline herperhives":"Famciclovir (Famvir)"
+}
+
+dog_dis_med= {
+"Blastomycosis": "Amphotericin B (Abelcet®), Ketoconazole",
+"Cellulitis ":"Cephalexin, Moxifloxacin, Nafcillin, and Vancomycin",
+"myisis": "Nitenpyram 1 mg/kg PO administered every 24 hours",
+"ringworm":"Miconazole (Micaved), Terbinafine (Lamisil), or Clotrimazole (Otomax or Otibiotic)"
+}
+
+if class_name in my_dict2.keys():
+  print(f'Medicine for {class_name} : {my_dict2[class_name]}')
